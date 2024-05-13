@@ -5,20 +5,20 @@ body {
     font-weight: 400;
 }
 ul {
-    text-decoration: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 a {
-        text-decoration: none;
-        list-style-type: none;
+    text-decoration: none;
     }
+
     h1, h2, h3, p {
-        margin: 0;
+    margin: 0;
     }
+
     img {
-        display: block;
+    display: block;
     }
 
 .container {
@@ -34,7 +34,7 @@ border-bottom: 1px solid #e7e9fc;
         align-items: center;
     }
 
-    .navigation {
+    .header-navigation {
     display: flex;
     align-items: center;
 }
@@ -52,12 +52,12 @@ border-bottom: 1px solid #e7e9fc;
 .logo .accent {
     color: #2e2f42;
 }
-.header-link {
+.header-list {
     display: flex;
     gap: 40px;
 }
 
-.link {
+.header-link {
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -67,8 +67,8 @@ border-bottom: 1px solid #e7e9fc;
         display: block;
 }
 
-.link:hover,
-.link:focus {
+.header-link:hover,
+.header-link:focus {
     color: #404bbf;
 }
 .address {
@@ -92,13 +92,13 @@ margin-left: auto;
     color: #404bbf;
 }
 
-.section-main {
+.main {
     background: #2e2f42;
     width: 100%;
     padding: 188px 0;
 }
 
-.first-container {
+.main-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -109,7 +109,7 @@ margin-left: auto;
 }
 
 
-.page-title {
+.main-title {
         font-weight: 700;
         font-size: 56px;
         line-height: 107%;
@@ -121,7 +121,7 @@ margin-left: auto;
         margin-bottom: 48px;
     }
 
-.button {
+.main-button {
     font-family: "Roboto", sans-serif;
     background-color: #4d5ae5;
     color: #fff;
@@ -133,14 +133,13 @@ margin-left: auto;
     display: block;
     padding: 16px 32px;
     height: 56px;
-   
     border: none;
     border-radius: 4px;
     margin: 0 auto;
     }
 
-.button:focus,
-.button:hover {
+.main-button:focus,
+.main-button:hover {
     background-color: #404bbf;
 }
 .name {
@@ -157,10 +156,10 @@ margin-left: auto;
         letter-spacing: 0.02em;
         color: #434455;
 }
-.section-team {
+.team {
     background: #f4f4fd;
 }
-.section-title {
+.team-title {
         font-weight: 700;
         font-size: 36px;
         line-height: 111%;
@@ -169,7 +168,7 @@ margin-left: auto;
         color: #2e2f42;
         text-transform: capitalize;
 }
-.images-card {
+.team-images {
         background: #fff;
 }
 .footer {
